@@ -88,34 +88,45 @@ let resumeData = {
     {
       "name": "Colossal Hogs",
       "description": "The PACK IS BACK",
-      "imgurl": "./images/ColossalHogs.png"
+      "imgurl": "./images/ColossalHogs.png",
+      "imglink": "https://the-pack-is-back.herokuapp.com/"
     },
     {
-      "name": "User Directory",
-      "description": "Employer Directory",
-      "imgurl": "./images/UserDirectory.png"
+      "name": "Team Generator",
+      "description": "Generates a team",
+      "imgurl": "./images/TeamGeneratorProfile.png",
+      "imglink": "https://github.com/joshkuruvilla512/employee-summary"
+
     },
     {
-      "name": "project3",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/project2.png"
+      "name": "ATX Now!",
+      "description": "Finding concerts in Austin",
+      "imgurl": "./images/ATXNow.png",
+      "imglink": "https://kgeary.github.io/atxnow/"
+
     },
     {
-      "name": "project4",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/phone.jpg"
-    }
-  ],
-  "testimonials": [
-    {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
+      "name": "Trivia Quiz",
+      "description": "An Office themed Trivia Quiz",
+      "imgurl": "images/TrivaQuiz.png",
+      "imglink": "https://github.com/joshkuruvilla512/Trivia-Quiz"
+
+    },{
+      "name": "Second Portfolio Page with Bootstrap",
+      "description": "Introduced to Bootstrap",
+      "imgurl": "./images/PortfolioBootstrap.png",
+      "imglink": "https://github.com/joshkuruvilla512/Homework2"
+
     },
     {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
+      "name": "First Portfolio Page",
+      "description": "Building blocks to coding",
+      "imgurl": "./images/Portfolio.png",
+      "imglink": "https://github.com/joshkuruvilla512/JoshKuruvilla.github.io"
+
     }
   ]
+ 
 }
 
 export default resumeData
