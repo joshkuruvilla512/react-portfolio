@@ -13,15 +13,15 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href={item.imglink}>
                       <img src={item.imgurl} alt="portfolio" className="item-img"/>
                       <div className="overlay">
+                    <a href={item.imglink}>
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                         </div>
-                      </div>
                     </a>
+                      </div>
                   </div>
                 </div>
               )
