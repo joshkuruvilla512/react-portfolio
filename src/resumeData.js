@@ -86,14 +86,14 @@ let resumeData = {
   ],
   "portfolio": [
     {
-      "name": "project1",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/phone.jpg"
+      "name": "Colossal Hogs",
+      "description": "The PACK IS BACK",
+      "imgurl": "./images/ColossalHogs.png"
     },
     {
-      "name": "project2",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/project.jpg"
+      "name": "User Directory",
+      "description": "Employer Directory",
+      "imgurl": "./images/UserDirectory.png"
     },
     {
       "name": "project3",
