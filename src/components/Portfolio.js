@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+// import react-router from 'react-router';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
+      <Router>
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
@@ -15,12 +18,12 @@ export default class Porfolio extends Component {
                   <div className="item-wrap">
                       <img src={item.imgurl} alt="portfolio" className="item-img"/>
                       <div className="overlay">
-                    <a href={item.imglink}>
+                    <Link to={item.imglink}>
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                         </div>
-                    </a>
+                    </Link>
                       </div>
                   </div>
                 </div>
@@ -31,6 +34,7 @@ export default class Porfolio extends Component {
         </div>
       </div>
   </section>
+  </Router>
         );
   }
 }
